@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("/hello")
+    @GetMapping("/hello3")
     public String hello(){
-        return "hello2";
+        return "hello3";
     }
 }
