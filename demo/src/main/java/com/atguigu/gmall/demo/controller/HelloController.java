@@ -6,4 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
+    @PostMapping
+    public String local(){
+        return "hi";
+    }
 }
